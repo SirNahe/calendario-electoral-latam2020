@@ -1,4 +1,5 @@
-src/assets/app.bundle.js
+src/assets/javascripts/app.bundle.js
+public/assets/javascripts/app.bundle.js
 node_modules/
 ./package-lock.json
 .sass-cache

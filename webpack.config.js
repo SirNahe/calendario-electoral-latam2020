@@ -1,18 +1,12 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  entry: './front/index.js'
+  entry: './front/index.js',
   output: {
-    path: path.resolve(_dirname, 'src/assets/javascripts')
+    path: path.resolve(__dirname, 'src/assets/javascripts/'),
     filename: 'app.bundle.js',
     publicPath: '/'
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'src/index.html'
-    })
-  ],
   module: {
     rules: [
       {
