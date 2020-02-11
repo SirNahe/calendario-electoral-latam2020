@@ -55,3 +55,7 @@ exclude: ['node_modules']
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+collections:
+  elections:
+    output: true
+    permalink: /:name

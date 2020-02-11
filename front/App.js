@@ -9,9 +9,13 @@ import {
   Container,
   Link
 } from '@material-ui/core'
-import { FlagsContainer } from './components/FlagsContainer'
+
+import { Home } from './pages/Home'
+import { Content } from './pages/Content'
 
 import { makeStyles } from '@material-ui/core/styles'
+
+import { Router } from '@reach/router'
 
 const useStyles = makeStyles(theme => ({
   icon: {
@@ -23,10 +27,6 @@ const useStyles = makeStyles(theme => ({
   },
   heroButtons: {
     marginTop: theme.spacing(4)
-  },
-  cardGrid: {
-    paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8)
   }
 }))
 
@@ -37,11 +37,7 @@ export const App = () => {
     <>
       <CssBaseline />
       <AppBar position='relative'>
-        <Toolbar>
-          <Typography variant='h6' color='inherit' noWrap>
-            Home
-          </Typography>
-        </Toolbar>
+        <Toolbar />
       </AppBar>
       <main>
         {/* Hero unit */}
@@ -68,20 +64,36 @@ export const App = () => {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify='center'>
                 <Grid item>
-                  <Button variant='contained' color='primary'>
-                    Ir al repositorio
-                  </Button>
+                  <Link
+                    style={{ textDecoration: 'none' }}
+                    color='inherit'
+                    href='https://github.com/SirNahe/calendario-electoral-latam2020'
+                  >
+                    <Button variant='contained' color='primary'>
+                      Ir al repositorio
+                    </Button>
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link
+                    style={{ textDecoration: 'none' }}
+                    color='inherit'
+                    href='/'
+                  >
+                    <Button variant='outlined' color='primary'>
+                      Volver a inicio
+                    </Button>
+                  </Link>
                 </Grid>
               </Grid>
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='md'>
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            <FlagsContainer />
-          </Grid>
-        </Container>
+        {/* End hero unit */}
+        <Router>
+          <Home path='/' />
+          <Content path='/:country' />
+        </Router>
       </main>
     </>
   )

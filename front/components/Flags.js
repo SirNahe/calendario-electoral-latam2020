@@ -6,7 +6,8 @@ import {
   CardActions,
   Button,
   Grid,
-  Typography
+  Typography,
+  Link
 } from '@material-ui/core'
 
 import { makeStyles } from '@material-ui/core/styles'
@@ -42,9 +43,15 @@ export const Flags = ({ flags = [] } = {}) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size='small' color='primary'>
-            Ver más
-          </Button>
+          <Link
+            style={{ textDecoration: 'none' }}
+            color='inherit'
+            href={flag.path}
+          >
+            <Button size='small' color='primary'>
+              Ver más
+            </Button>
+          </Link>
         </CardActions>
       </Card>
     </Grid>
