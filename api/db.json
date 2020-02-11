@@ -1,0 +1,92 @@
+{
+  "flags": [
+    {
+      "id": 1,
+      "title": "Perú",
+      "month": "Enero",
+      "type": "parlamento",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281119/flags/peru_bss3pa.jpg",
+      "path": "/peru"
+    },
+    {
+      "id": 2,
+      "title": "Costa Rica",
+      "month": "Febrero",
+      "type": "municipal",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281129/flags/costa_rica_kputk3.jpg",
+      "path": "/costarica"
+    },
+    {
+      "id": 3,
+      "title": "Chile",
+      "month": "Abril",
+      "type": "otro",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281124/flags/chile_dtnpla.jpg",
+      "path": "/chile"
+    },
+    {
+      "id": 4,
+      "title": "Bolivia",
+      "month": "Mayo",
+      "type": "presidente y parlamento",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281122/flags/bolivia_lk7lwz.jpg",
+      "path": "/bolivia"
+    },
+    {
+      "id": 5,
+      "title": "Uruguay",
+      "month": "Mayo",
+      "type": "municipal",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281129/flags/uruguay_becndr.jpg",
+      "path": "/uruguay"
+    },
+    {
+      "id": 6,
+      "title": "República Dominicana",
+      "month": "Mayo",
+      "type": "presidente y parlamento",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581283863/flags/dominicana_l2pxsu.jpg",
+      "path": "/dominicana"
+    },
+    {
+      "id": 7,
+      "title": "México",
+      "month": "Junio",
+      "type": "municipal",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281130/flags/mexico_ay20aj.jpg",
+      "path": "/mexico"
+    },
+    {
+      "id": 8,
+      "title": "Chile",
+      "month": "Octubre",
+      "type": "municipal",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281124/flags/chile_dtnpla.jpg",
+      "path": "/chilem"
+    },
+    {
+      "id": 9,
+      "title": "Puerto Rico",
+      "month": "Noviembre",
+      "type": "otro",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281127/flags/puerto_rico_os7c7w.jpg",
+      "path": "/puertorico"
+    },
+    {
+      "id": 10,
+      "title": "Venezuela",
+      "month": "Diciembre",
+      "type": "parlamento",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281128/flags/venezuela_v4mder.jpg",
+      "path": "/venezuela"
+    },
+    {
+      "id": 11,
+      "title": "Haití",
+      "month": "Por determinar",
+      "type": "parlamento",
+      "src": "https://res.cloudinary.com/sirnahe/image/upload/v1581281125/flags/haiti_x1nscv.jpg",
+      "path": "/haiti"
+    }
+  ]
+}
