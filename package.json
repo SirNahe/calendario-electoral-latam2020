@@ -1,7 +1,7 @@
 {
   "name": "calendario-electoral-latam2020",
   "version": "1.0.0",
-  "description": "Repositorio con el código de una web estática con el listado de las elecciones del año 2020 en Latinoamérica.",
+  "description": "Repositorio con el código de una web estática que contiene el listado de las elecciones del año 2020 en Latinoamérica.",
   "main": "webpack.config.js",
   "dependencies": {
     "@material-ui/core": "^4.9.1",
@@ -26,7 +26,7 @@
   "scripts": {
     "build": "webpack",
     "lint": "standard",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

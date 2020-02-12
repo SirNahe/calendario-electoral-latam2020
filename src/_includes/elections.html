@@ -1,7 +1,0 @@
----
-countryName: bolivia
----
-
-{% assign country = site.elections | where:"country", countryName % | first %}
-<h3>{{ country.dated }}</h3>
-<h2>{{ page.url }}</h2>
