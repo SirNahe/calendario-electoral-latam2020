@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Parlamento.
+country: Venezuela.
+type: Elecciones legislativas.
 dated: Diciembre (Provisional).
 ---

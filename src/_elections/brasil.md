@@ -1,6 +1,6 @@
 ---
 layout: election
-country: Uruguay.
+country: Brasil.
 type: Elecciones municipales.
-dated: 10 de mayo.
+dated: 4 de octubre.
 ---

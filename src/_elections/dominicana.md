@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Presidente y Parlamento.
+country: República Dominicana.
+type: Elecciones generales.
 dated: 17 de mayo.
 ---

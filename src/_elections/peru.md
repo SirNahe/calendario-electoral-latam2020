@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Parlamento.
+country: Perú.
+type: Elecciones legislativas.
 dated: 26 de enero.
 ---

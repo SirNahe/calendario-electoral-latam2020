@@ -1,6 +1,6 @@
 ---
 layout: election
-country: Uruguay.
+country: Paraguay.
 type: Elecciones municipales.
-dated: 10 de mayo.
+dated: 8 de noviembre.
 ---

@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Municipales.
+country: Chile.
+type: Elecciones regionales.
 dated: 25 de octubre.
 ---

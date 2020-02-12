@@ -5,7 +5,7 @@ import { ApolloProvider } from 'react-apollo'
 import ApolloClient from 'apollo-boost'
 
 const client = new ApolloClient({
-  uri: 'https://elecciones-server-nahe.now.sh/graphql'
+  uri: 'https://elecciones-api.now.sh/graphql'
 })
 
 ReactDOM.render(

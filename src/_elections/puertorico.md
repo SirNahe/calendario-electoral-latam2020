@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Gobernador y Asamblea Legislativa.
+country: Puerto Rico.
+type: Elecciones generales.
 dated: 3 de noviembre.
 ---

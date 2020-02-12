@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Municipales.
+country: Costa Rica.
+type: Elecciones municipales.
 dated: 2 de febrero.
 ---

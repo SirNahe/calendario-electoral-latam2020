@@ -1,6 +1,6 @@
 ---
 layout: election
-country: Uruguay.
+country: República Dominicana.
 type: Elecciones municipales.
-dated: 10 de mayo.
+dated: 16 de febrero.
 ---

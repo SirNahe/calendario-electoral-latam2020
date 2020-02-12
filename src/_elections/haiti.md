@@ -1,5 +1,6 @@
 ---
 layout: election
-type: Cámara de Diputados y Senado.
+country: Haití.
+type: Posibles elecciones para la Cámara de Diputados y el Senado.
 dated: Por determinar.
 ---
