@@ -46,7 +46,7 @@ export const Flags = ({ flags = [] } = {}) => {
           <Link
             style={{ textDecoration: 'none' }}
             color='inherit'
-            href={flag.path}
+            href={`${flag.path}.html`}
           >
             <Button size='small' color='primary'>
               Ver más
