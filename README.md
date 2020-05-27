@@ -1,3 +1,18 @@
-# calendario-electoral-latam2020
+# React & Jekyll page
 
-Repositorio con el código de una web estática que contiene el listado de las elecciones del año 2020 en Latinoamérica.
+============
+
+This is a static site using Jekyll with React and Webpack that provides a nice performance in a simple site generator.
+
+---
+
+## Technologies
+
+Project is created with:
+
+- Jekyll 4
+- React 16
+- Webpack
+- Material UI 4
+- React Apollo
+- Express.JS
